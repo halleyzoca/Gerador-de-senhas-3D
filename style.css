@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
 :root{
     --branco: white;
     --cor-de-fundo: #6B3F69;
     --fundo-senha:  #8D5F8C;
     --fundo-texto:  #A376A2;
     --borda: #DDC3C3;
+    --amarante: "Amarante", sans-serif;
+
+}
+*{
+    font-weight:400;
+}
+body{
+    color:var(--branco);
+    background-color:var(--cor-de-fundo);
+    font-family:var(--amarante);
 }
